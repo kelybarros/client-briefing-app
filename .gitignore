@@ -1,4 +1,6 @@
+# =========================
 # Logs
+# =========================
 logs
 *.log
 npm-debug.log*
@@ -7,23 +9,74 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
+# =========================
+# Dependencies
+# =========================
+node_modules/
+jspm_packages/
+.pnpm-store
+
+# =========================
+# Build outputs
+# =========================
 dist
 dist-ssr
-*.local
+build
+out
+.next
+.nuxt
+.output
+.cache
+.parcel-cache
+.vite/
+.vuepress/dist
+.docusaurus
+.serverless/
+.fusebox/
+.dynamodb/
 
-# Editor directories and files
-.vscode/*
+# =========================
+# Coverage / testing
+# =========================
+coverage
+*.lcov
+.nyc_output
+
+# =========================
+# Environment variables
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# OS / Editor files
+# =========================
+.vscode/
 !.vscode/extensions.json
 .idea
 .DS_Store
+
+# =========================
+# TypeScript / Vite
+# =========================
+*.tsbuildinfo
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+
+# =========================
+# Misc
+# =========================
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
-
-# Environment variables
-.env
-.env.*
-!.env.example
+.lock-wscript
+.pnp.*
+.yarn/
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
