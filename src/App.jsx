@@ -1,6 +1,6 @@
 import { ThemeProvider } from "styled-components";
-import { theme } from "./Styles/theme";
-import GlobalStyle from "./Styles/globalStyles";
+import { theme } from "./styles/theme";
+import GlobalStyle from "./styles/globalStyles";
 
 import Home from "./pages/Home";
 import Briefing from "./pages/Briefing";
