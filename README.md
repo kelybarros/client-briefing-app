@@ -1,21 +1,134 @@
-<<<<<<< HEAD
-# React + Vite
+# 🚀 Client Briefing App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern web application built with **React** to streamline client onboarding through a structured multi-step briefing process.
 
-Currently, two official plugins are available:
+The application guides users through each stage of the form, validates the provided information, preserves progress automatically, sends the completed briefing via email, and generates a professional PDF report.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🌐 Live Demo
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+**Application**
 
-## Expanding the ESLint configuration
+👉 https://briefing.kelybarros.com/
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# client-briefing-app
-A modern multi-step briefing app built with React that streamlines client onboarding by collecting structured project data, validating inputs, and sending automated email submissions. It also generates downloadable PDF reports and delivers a smooth, guided user experience with persistent form state.
->>>>>>> d2633692df555b4276b024808218f65986bf4c70
+---
+
+## ✨ Features
+
+- ✅ Multi-step client briefing form
+- ✅ Interactive progress bar
+- ✅ Step-by-step validation
+- ✅ Automatic data persistence with LocalStorage
+- ✅ Navigation between completed steps
+- ✅ Automated email submission
+- ✅ Professional PDF generation
+- ✅ Animated success screen
+- ✅ Responsive interface
+- ✅ Component-based architecture
+
+---
+
+## 🛠️ Tech Stack
+
+- React
+- JavaScript (ES6+)
+- Vite
+- Styled Components
+- EmailJS
+- jsPDF
+- React Icons
+- React Confetti
+
+---
+
+## 📂 Project Structure
+
+```text
+src/
+│
+├── assets/
+├── briefing/
+│   ├── actions.js
+│   ├── reducer.js
+│   └── initialState.js
+│
+├── components/
+│   ├── BriefingSteps/
+│   ├── Button/
+│   ├── Footer/
+│   ├── ProgressBar/
+│   └── WhatsAppButton/
+│
+├── pages/
+├── services/
+├── utils/
+├── validations/
+│
+└── App.jsx
+```
+
+---
+
+## ⚙️ Getting Started
+
+Clone the repository:
+
+```bash
+git clone https://github.com/kelybarros/client-briefing-app.git
+```
+
+Navigate to the project folder:
+
+```bash
+cd client-briefing-app
+```
+
+Install dependencies:
+
+```bash
+pnpm install
+```
+
+Start the development server:
+
+```bash
+pnpm dev
+```
+
+---
+
+## 📄 Application Flow
+
+1. The client completes the multi-step briefing form.
+2. Each step is validated before proceeding.
+3. Form data is automatically saved during the process.
+4. The completed briefing is sent via email.
+5. A professional PDF report is generated.
+6. The user is redirected to a success page where the PDF can be downloaded.
+
+---
+
+## 💡 Purpose
+
+This project was designed to simulate a real-world client onboarding workflow commonly used by agencies, freelancers, and software companies.
+
+The goal was to create a clean, intuitive, and professional experience while automating the collection and organization of project requirements.
+
+---
+
+## 👩‍💻 Author
+
+**Kely Barros**
+
+GitHub:  
+https://github.com/kelybarros
+
+LinkedIn:  
+*(Add your LinkedIn profile here)*
+
+---
+
+## ⭐ Support
+
+If you found this project useful, consider giving it a **star** on GitHub.
