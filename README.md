@@ -1,4 +1,4 @@
-# 🚀 Client Briefing App
+# Client Briefing App
 
 ![React](https://img.shields.io/badge/React-19-61DAFB?logo=react\&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-7-646CFF?logo=vite\&logoColor=white)
@@ -12,7 +12,7 @@ The application guides users through each stage of the form, validates the provi
 
 ---
 
-## 🌐 Live Demo
+## Live Demo
 
 🔗 **Application**
 
@@ -22,7 +22,7 @@ https://briefing.kelybarros.com/
 
 ---
 
-## ✨ Features
+## Features
 
 * Multi-step client briefing form
 * Interactive progress bar
@@ -50,7 +50,7 @@ https://briefing.kelybarros.com/
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 .
@@ -74,7 +74,7 @@ https://briefing.kelybarros.com/
 
 ---
 
-## 🏗 Architecture
+## Architecture
 
 The application follows a modular and component-based architecture, separating responsibilities into dedicated layers:
 
@@ -87,7 +87,7 @@ The application follows a modular and component-based architecture, separating r
 
 ---
 
-## ⚙️ Getting Started
+## Getting Started
 
 ### Clone the repository
 
@@ -115,7 +115,7 @@ pnpm dev
 
 ---
 
-## 📄 Application Flow
+## Application Flow
 
 1. The client fills out the multi-step briefing form.
 2. Each step is validated before moving forward.
@@ -126,7 +126,7 @@ pnpm dev
 
 ---
 
-## 💡 Purpose
+## Purpose
 
 This project simulates a real-world client onboarding workflow commonly used by agencies, freelancers, and software companies.
 
@@ -134,7 +134,7 @@ Its primary goal is to provide a clean, intuitive, and professional user experie
 
 ---
 
-## 🚀 Future Improvements
+## Future Improvements
 
 * Backend integration
 * Database persistence
@@ -145,7 +145,7 @@ Its primary goal is to provide a clean, intuitive, and professional user experie
 
 ---
 
-## 👩‍💻 Author
+## Author
 
 **Kely Barros**
 
