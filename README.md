@@ -45,27 +45,23 @@ The application guides users through each stage of the form, validates the provi
 ## 📂 Project Structure
 
 ```text
-src/
-│
-├── assets/
-├── briefing/
-│   ├── actions.js
-│   ├── reducer.js
-│   └── initialState.js
-│
-├── components/
-│   ├── BriefingSteps/
-│   ├── Button/
-│   ├── Footer/
-│   ├── ProgressBar/
-│   └── WhatsAppButton/
-│
-├── pages/
-├── services/
-├── utils/
-├── validations/
-│
-└── App.jsx
+.
+├── public/
+├── src/
+│   ├── assets/
+│   ├── briefing/
+│   ├── components/
+│   ├── pages/
+│   ├── services/
+│   ├── styles/
+│   ├── utils/
+│   ├── validations/
+│   ├── App.jsx
+│   └── main.jsx
+├── index.html
+├── package.json
+├── vite.config.js
+└── eslint.config.js
 ```
 
 ---
