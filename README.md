@@ -37,7 +37,7 @@ https://briefing.kelybarros.com/
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 * React
 * JavaScript (ES6+)
@@ -157,6 +157,6 @@ https://www.linkedin.com/in/kely-barros/
 
 ---
 
-## ⭐ Show your support
+## Show your support
 
 If you found this project useful, consider giving it a ⭐ on GitHub.
