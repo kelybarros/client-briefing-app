@@ -125,7 +125,7 @@ GitHub:
 https://github.com/kelybarros
 
 LinkedIn:  
-*(Add your LinkedIn profile here)*
+https://www.linkedin.com/in/kely-barros/
 
 ---
 
