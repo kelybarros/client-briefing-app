@@ -141,7 +141,6 @@ Its primary goal is to provide a clean, intuitive, and professional user experie
 * User authentication
 * Admin dashboard
 * Briefing history
-* Dark mode
 * Internationalization (i18n)
 
 ---
